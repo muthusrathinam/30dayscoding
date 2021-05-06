@@ -1,3 +1,11 @@
+'''
+Given an unsorted integer array nums, find the smallest missing positive integer.
+
+Example 1:
+    Input: nums = [1,2,0]
+    Output: 3
+'''
+
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         contains_one = False
