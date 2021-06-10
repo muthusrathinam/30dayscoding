@@ -23,7 +23,7 @@ def dynamicArray(n, queries):
         if q[0]==1:
             seq=(q[1] ^ last_answer)%n # ^ is xor operator
             seq_list[seq].append(q[2]) #append y
-        
+        #case 2
         else:
             seq=(q[1] ^ last_answer)%n
             y = q[2]%len(seq_list[seq])     # y % seq_size
