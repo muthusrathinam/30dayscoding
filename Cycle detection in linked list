@@ -1,5 +1,7 @@
 approach 1 : optimized using only 2 ptr's
 
+***************Floyd’s Cycle-Finding Algorithm******************* 
+
 def has_cycle(head):
     #initialize two pointers
     fast = slow = head
